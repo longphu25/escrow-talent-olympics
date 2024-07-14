@@ -1,2 +1,12 @@
 test:
 	anchor test --skip-local-validator
+
+deploy-devnet:
+	anchor deploy --provider.cluster devnet
+
+escrow-deploy-devnet:
+	anchor deploy --provider.cluster devnet --program-name escrow
+
+escrow-deploy:
+	anchor deploy --program-name escrow
+

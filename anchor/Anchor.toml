@@ -12,8 +12,10 @@ escrow = "3rQ11JzhCdcfdXQr3KA4jeo8vWNeEs5p9wpTqKaiYb44"
 url = "https://api.apr.dev"
 
 [provider]
+# cluster = "devnet"
+# wallet = "~/.config/solana/wallet1.json"
 cluster = "Localnet"
-wallet = "~/.config/solana/id.json"
+wallet = "~/.config/solana/wallet1.json"
 
 [scripts]
 test = "../node_modules/.bin/nx run anchor:jest"
